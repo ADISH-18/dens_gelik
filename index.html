@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'cursive';
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: darkorange;
+        }
+
+        .chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 50px);
+            grid-template-rows: repeat(8, 50px);
+        }
+
+        .square {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .even {
+            background-color: white;
+        }
+
+        .odd {
+            background-color: black;
+        }
+
+        .even-index {
+            color:darkturquoise; /* Red */
+        }
+
+        .odd-index {
+            color: black; /* Blue */
+        }
+    </style>
+</head>
+<body>
+    <h1>Chessboard Creator</h1>
+    <div class="chessboard">
+                <!-- Row 8 -->
+                <div class="square even odd-index">8</div>
+                <div class="square odd even-index">8</div>
+                <div class="square even odd-index">8</div>
+                <div class="square odd even-index">8</div>
+                <div class="square even odd-index">8</div>
+                <div class="square odd even-index">8</div>
+                <div class="square even odd-index">8</div>
+                <div class="square odd even-index">8</div>
+                
+                <!-- Row 7 -->
+                <div class="square odd even-index">7</div>
+                <div class="square even odd-index">7</div>
+                <div class="square odd even-index">7</div>
+                <div class="square even odd-index">7</div>
+                <div class="square odd even-index">7</div>
+                <div class="square even odd-index">7</div>
+                <div class="square odd even-index">7</div>
+                <div class="square even odd-index">7</div>
+                
+                <!-- Row 6 -->
+                <div class="square even odd-index">6</div>
+                <div class="square odd even-index">6</div>
+                <div class="square even odd-index">6</div>
+                <div class="square odd even-index">6</div>
+                <div class="square even odd-index">6</div>
+                <div class="square odd even-index">6</div>
+                <div class="square even odd-index">6</div>
+                <div class="square odd even-index">6</div>
+                
+                <!-- Row 5 -->
+                <div class="square odd even-index">5</div>
+                <div class="square even odd-index">5</div>
+                <div class="square odd even-index">5</div>
+                <div class="square even odd-index">5</div>
+                <div class="square odd even-index">5</div>
+                <div class="square even odd-index">5</div>
+                <div class="square odd even-index">5</div>
+                <div class="square even odd-index">5</div>
+                
+                <!-- Row 4 -->
+                <div class="square even odd-index">4</div>
+                <div class="square odd even-index">4</div>
+                <div class="square even odd-index">4</div>
+                <div class="square odd even-index">4</div>
+                <div class="square even odd-index">4</div>
+                <div class="square odd even-index">4</div>
+                <div class="square even odd-index">4</div>
+                <div class="square odd even-index">4</div>
+                
+                <!-- Row 3 -->
+                <div class="square odd even-index">3</div>
+                <div class="square even odd-index">3</div>
+                <div class="square odd even-index">3</div>
+                <div class="square even odd-index">3</div>
+                <div class="square odd even-index">3</div>
+                <div class="square even odd-index">3</div>
+                <div class="square odd even-index">3</div>
+                <div class="square even odd-index">3</div>
+                
+                <!-- Row 2 -->
+                <div class="square even odd-index">2</div>
+                <div class="square odd even-index">2</div>
+                <div class="square even odd-index">2</div>
+                <div class="square odd even-index">2</div>
+                <div class="square even odd-index">2</div>
+                <div class="square odd even-index">2</div>
+                <div class="square even odd-index">2</div>
+                <div class="square odd even-index">2</div>
+                
+                <!-- Row 1 -->
+                <div class="square odd even-index">1</div>
+                <div class="square even odd-index">1</div>
+                <div class="square odd even-index">1</div>
+                <div class="square even odd-index">1</div>
+                <div class="square odd even-index">1</div>
+                <div class="square even odd-index">1</div>
+                <div class="square odd even-index">1</div>
+                <div class="square even odd-index">1</div>
+                
+                <!-- Column Indexing -->
+                <div class="square indexing even-index">a</div>
+                <div class="square indexing odd-index">b</div>
+                <div class="square indexing even-index">c</div>
+                <div class="square indexing odd-index">d</div>
+                <div class="square indexing even-index">e</div>
+                <div class="square indexing odd-index">f</div>
+                <div class="square indexing even-index">g</div>
+                <div class="square indexing odd-index">h</div>
+    </div>
+</body>
+</html>
